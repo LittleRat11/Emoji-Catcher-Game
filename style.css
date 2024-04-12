@@ -1,0 +1,73 @@
+body {
+    background: #FF9800;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.scores-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-score {
+    margin-right: 20px;
+    margin: 20px;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    color: #000;
+}
+
+.time {
+    margin-right: 20px;
+    margin: 20px;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    color: #000;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 2rem;
+    padding: 20px;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background: #FF9800;
+}
+
+.startStop {
+    background-color: #fff;
+    padding: 10px 15px;
+    display: block;
+    margin: 1.2rem auto;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* JavaScript */
+
+.emoji {
+    background-image: url("https://i.guim.co.uk/img/media/a1b7129c950433c9919f5670c92ef83aa1c682d9/55_344_1971_1183/master/1971.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=88ba2531f114b9b58b9cb2d8e723abe1");
+    background-position: center;
+    background-size: cover;
+}
